@@ -14,6 +14,10 @@
 		ED484281148911CF00F635F0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ED484280148911CF00F635F0 /* main.m */; };
 		ED48428C1489144000F635F0 /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED48428B1489144000F635F0 /* Storyboard.storyboard */; };
 		ED48428E148916E300F635F0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ED48428D148916E300F635F0 /* AppDelegate.m */; };
+		ED48429014891E0300F635F0 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED48428F14891E0300F635F0 /* MapKit.framework */; };
+		ED48429314891EB200F635F0 /* myPosition.m in Sources */ = {isa = PBXBuildFile; fileRef = ED48429214891EB200F635F0 /* myPosition.m */; };
+		ED48429514891F0700F635F0 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED48429414891F0700F635F0 /* CoreLocation.framework */; };
+		EDCC0E3E14892EEC00C822B0 /* GPSViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EDCC0E3D14892EEC00C822B0 /* GPSViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +32,12 @@
 		ED484283148911CF00F635F0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		ED48428B1489144000F635F0 /* Storyboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Storyboard.storyboard; sourceTree = "<group>"; };
 		ED48428D148916E300F635F0 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		ED48428F14891E0300F635F0 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		ED48429114891EB200F635F0 /* myPosition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = myPosition.h; sourceTree = "<group>"; };
+		ED48429214891EB200F635F0 /* myPosition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = myPosition.m; sourceTree = "<group>"; };
+		ED48429414891F0700F635F0 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		EDCC0E3C14892EEC00C822B0 /* GPSViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPSViewController.h; sourceTree = "<group>"; };
+		EDCC0E3D14892EEC00C822B0 /* GPSViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GPSViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +45,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ED48429514891F0700F635F0 /* CoreLocation.framework in Frameworks */,
+				ED48429014891E0300F635F0 /* MapKit.framework in Frameworks */,
 				ED484275148911CF00F635F0 /* UIKit.framework in Frameworks */,
 				ED484277148911CF00F635F0 /* Foundation.framework in Frameworks */,
 				ED484279148911CF00F635F0 /* CoreGraphics.framework in Frameworks */,
@@ -64,6 +76,8 @@
 		ED484273148911CF00F635F0 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				ED48429414891F0700F635F0 /* CoreLocation.framework */,
+				ED48428F14891E0300F635F0 /* MapKit.framework */,
 				ED484274148911CF00F635F0 /* UIKit.framework */,
 				ED484276148911CF00F635F0 /* Foundation.framework */,
 				ED484278148911CF00F635F0 /* CoreGraphics.framework */,
@@ -76,8 +90,12 @@
 			children = (
 				ED48428D148916E300F635F0 /* AppDelegate.m */,
 				ED484283148911CF00F635F0 /* AppDelegate.h */,
-				ED48427B148911CF00F635F0 /* Supporting Files */,
 				ED48428B1489144000F635F0 /* Storyboard.storyboard */,
+				ED48429114891EB200F635F0 /* myPosition.h */,
+				ED48429214891EB200F635F0 /* myPosition.m */,
+				ED48427B148911CF00F635F0 /* Supporting Files */,
+				EDCC0E3C14892EEC00C822B0 /* GPSViewController.h */,
+				EDCC0E3D14892EEC00C822B0 /* GPSViewController.m */,
 			);
 			path = GPSAlarm;
 			sourceTree = "<group>";
@@ -157,6 +175,8 @@
 			files = (
 				ED484281148911CF00F635F0 /* main.m in Sources */,
 				ED48428E148916E300F635F0 /* AppDelegate.m in Sources */,
+				ED48429314891EB200F635F0 /* myPosition.m in Sources */,
+				EDCC0E3E14892EEC00C822B0 /* GPSViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -260,6 +280,7 @@
 				ED48428A148911CF00F635F0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

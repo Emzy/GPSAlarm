@@ -7,8 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "myPosition.h"
 
-@interface AppDelegate : UIResponder <UIApplicationDelegate>
+@interface AppDelegate : UIResponder <UIApplicationDelegate>{
+    myPosition *locationController;
+}
 
 @property (strong, nonatomic) UIWindow *window;
 
