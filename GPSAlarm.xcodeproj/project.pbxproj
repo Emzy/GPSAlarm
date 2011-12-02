@@ -1,0 +1,263 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ED484275148911CF00F635F0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED484274148911CF00F635F0 /* UIKit.framework */; };
+		ED484277148911CF00F635F0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED484276148911CF00F635F0 /* Foundation.framework */; };
+		ED484279148911CF00F635F0 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED484278148911CF00F635F0 /* CoreGraphics.framework */; };
+		ED48427F148911CF00F635F0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = ED48427D148911CF00F635F0 /* InfoPlist.strings */; };
+		ED484281148911CF00F635F0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ED484280148911CF00F635F0 /* main.m */; };
+		ED484285148911CF00F635F0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ED484284148911CF00F635F0 /* AppDelegate.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		ED484270148911CF00F635F0 /* GPSAlarm.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GPSAlarm.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED484274148911CF00F635F0 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		ED484276148911CF00F635F0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		ED484278148911CF00F635F0 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		ED48427C148911CF00F635F0 /* GPSAlarm-Info.plist */ = {isa = PBXFileReference; path = "GPSAlarm-Info.plist"; sourceTree = "<group>"; };
+		ED48427E148911CF00F635F0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		ED484280148911CF00F635F0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		ED484282148911CF00F635F0 /* GPSAlarm-Prefix.pch */ = {isa = PBXFileReference; path = "GPSAlarm-Prefix.pch"; sourceTree = "<group>"; };
+		ED484283148911CF00F635F0 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		ED484284148911CF00F635F0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ED48426D148911CF00F635F0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED484275148911CF00F635F0 /* UIKit.framework in Frameworks */,
+				ED484277148911CF00F635F0 /* Foundation.framework in Frameworks */,
+				ED484279148911CF00F635F0 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ED484265148911CF00F635F0 = {
+			isa = PBXGroup;
+			children = (
+				ED48427A148911CF00F635F0 /* GPSAlarm */,
+				ED484273148911CF00F635F0 /* Frameworks */,
+				ED484271148911CF00F635F0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ED484271148911CF00F635F0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ED484270148911CF00F635F0 /* GPSAlarm.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ED484273148911CF00F635F0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ED484274148911CF00F635F0 /* UIKit.framework */,
+				ED484276148911CF00F635F0 /* Foundation.framework */,
+				ED484278148911CF00F635F0 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		ED48427A148911CF00F635F0 /* GPSAlarm */ = {
+			isa = PBXGroup;
+			children = (
+				ED484283148911CF00F635F0 /* AppDelegate.h */,
+				ED484284148911CF00F635F0 /* AppDelegate.m */,
+				ED48427B148911CF00F635F0 /* Supporting Files */,
+			);
+			path = GPSAlarm;
+			sourceTree = "<group>";
+		};
+		ED48427B148911CF00F635F0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				ED48427C148911CF00F635F0 /* GPSAlarm-Info.plist */,
+				ED48427D148911CF00F635F0 /* InfoPlist.strings */,
+				ED484280148911CF00F635F0 /* main.m */,
+				ED484282148911CF00F635F0 /* GPSAlarm-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ED48426F148911CF00F635F0 /* GPSAlarm */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ED484288148911CF00F635F0 /* Build configuration list for PBXNativeTarget "GPSAlarm" */;
+			buildPhases = (
+				ED48426C148911CF00F635F0 /* Sources */,
+				ED48426D148911CF00F635F0 /* Frameworks */,
+				ED48426E148911CF00F635F0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GPSAlarm;
+			productName = GPSAlarm;
+			productReference = ED484270148911CF00F635F0 /* GPSAlarm.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ED484267148911CF00F635F0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = ED48426A148911CF00F635F0 /* Build configuration list for PBXProject "GPSAlarm" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = ED484265148911CF00F635F0;
+			productRefGroup = ED484271148911CF00F635F0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ED48426F148911CF00F635F0 /* GPSAlarm */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ED48426E148911CF00F635F0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED48427F148911CF00F635F0 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ED48426C148911CF00F635F0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED484281148911CF00F635F0 /* main.m in Sources */,
+				ED484285148911CF00F635F0 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		ED48427D148911CF00F635F0 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ED48427E148911CF00F635F0 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ED484286148911CF00F635F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		ED484287148911CF00F635F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ED484289148911CF00F635F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GPSAlarm/GPSAlarm-Prefix.pch";
+				INFOPLIST_FILE = "GPSAlarm/GPSAlarm-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		ED48428A148911CF00F635F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GPSAlarm/GPSAlarm-Prefix.pch";
+				INFOPLIST_FILE = "GPSAlarm/GPSAlarm-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ED48426A148911CF00F635F0 /* Build configuration list for PBXProject "GPSAlarm" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED484286148911CF00F635F0 /* Debug */,
+				ED484287148911CF00F635F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ED484288148911CF00F635F0 /* Build configuration list for PBXNativeTarget "GPSAlarm" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED484289148911CF00F635F0 /* Debug */,
+				ED48428A148911CF00F635F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ED484267148911CF00F635F0 /* Project object */;
+}
